@@ -42,7 +42,7 @@ button{
 	margin-right: 5px;
 }
 body {
-	background: #fefeef;
+	background: #fbf0aa;
 	color: #666666;
 }
 footer{
@@ -65,9 +65,17 @@ footer li a:hover{
 label{
 	padding: 5px;
 }
+.main-temp{
+	background-color: rgba(255, 255, 255, .6);
+	border-radius: 10px;
+}
 /* colors */
 .red{
 	color: #a81c26;
+}
+.darkred{
+	background-color: #8B0000;
+	height: 60px;
 }
 .orange{
 	color: #FFA824;
