@@ -88,10 +88,7 @@ label{
 	margin-top: 10px;
 	margin-left: 20px;
 }
- .hours li{
- 	list-style: none;
- 	font-size: 1.5em;
- }
+
  .call{
  	font-family: serif;
  	padding-left: 10px;
@@ -99,6 +96,13 @@ label{
  .notice{
  	font-size: .75em;
  	margin-top: 20px;
+ }
+ .hrs{
+ 	font-size: .8em;
+ 	background-color: rgba(255, 255, 255, .4);
+ 	padding: 5px;
+ 	border-radius: 5px;
+ 	border: 1px solid #a81c26;
  }
   /* Admin Sidebar End*/
 .footer_link{
