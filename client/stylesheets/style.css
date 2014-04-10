@@ -15,7 +15,7 @@ h3{
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -142px;
+  margin-bottom: -205px;
   font-family: 'Droid Serif'; 
 }
 .page-wrap:after {
@@ -24,7 +24,7 @@ h3{
 }
 footer, .page-wrap:after {
   /* .push must be the same height as footer */
-  height: 142px; 
+  height: 205px; 
 }
 /* end of sticky footer*/
 
@@ -73,9 +73,12 @@ label{
 .red{
 	color: #a81c26;
 }
+.lighterred{
+	background-color: #ed3e61;
+}
 .darkred{
 	background-color: #8B0000;
-	height: 60px;
+	height: 80px;
 }
 .orange{
 	color: #FFA824;
@@ -138,6 +141,26 @@ label{
 	border-radius: 3px;
 }
 #spinner { height: 300px } 
+.navbar, .navbar-brand { 
+	font-family: 'Muli';
+	font-size: 1.25em;
+} 
+
+.navbar-default .navbar-nav > li > a {
+	padding: 3px 10px 3px 10px;
+	margin: 30px 20px 5px 0;
+}
+.navbar-default .navbar-nav > li > a:hover {
+	padding: 3px 10px 3px 10px;
+	margin: 30px 20px 5px 0;
+	color: #fff;
+	background-color: #ed3e61;
+	border-radius: 20px;
+}
+.navbar-default{
+	background-color:  #fbf0aa;
+	border: none;
+}
 .member {
 	*zoom: 1;
 	-webkit-transition: 

@@ -4,7 +4,9 @@
     "basePackages": {
       "iron-router": {},
       "bootstrap-3": {},
-      "googlemaps": {}
+      "googlemaps": {},
+      "aloha-editor": {},
+      "ogno-admin": {}
     },
     "packages": {
       "iron-router": {
@@ -22,10 +24,50 @@
         "tag": "v0.0.2",
         "commit": "da8785c82cfd7de0111f898ef10728e7ed24e361"
       },
+      "aloha-editor": {
+        "git": "https://github.com/evo42/meteor-aloha-editor.git",
+        "tag": "v0.1.2",
+        "commit": "0f903efa86abc6aabb112f772468ef5e7aaa3577"
+      },
+      "ogno-admin": {
+        "git": "https://github.com/matteodem/meteor-ogno-admin.git",
+        "tag": "v0.2.10",
+        "commit": "ae1c4426b3c171fe47b759574c0cc2c9de0fe205"
+      },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
         "tag": "v0.2.2",
         "commit": "8bc53798fe5965669ae67c72f91829fcfdceabfd"
+      },
+      "autoform": {
+        "git": "https://github.com/aldeed/meteor-autoform.git",
+        "tag": "v0.5.2",
+        "commit": "a02539ad73f519ef23303a62f2833f5397fc2959"
+      },
+      "pagination-mini": {
+        "git": "https://github.com/huyinghuan/meteor-pagination-mini.git",
+        "tag": "v0.0.2",
+        "commit": "f07ab5ff58ae9d71ae4407cb3198d078a96750b0"
+      },
+      "semantic-ui": {
+        "git": "https://github.com/nooitaf/meteor-semantic-ui.git",
+        "tag": "v0.15.2",
+        "commit": "aafa100ef174a644ebfc426c3f7ee922032e2a10"
+      },
+      "simple-schema": {
+        "git": "https://github.com/aldeed/meteor-simple-schema.git",
+        "tag": "v0.2.46",
+        "commit": "30b5d3e08433fbbfe49f09845559bf3ca0ab9101"
+      },
+      "collection2": {
+        "git": "https://github.com/aldeed/meteor-collection2.git",
+        "tag": "v0.3.11",
+        "commit": "7e970671305657678e8508d8107d5e6c5e158559"
+      },
+      "moment": {
+        "git": "https://github.com/acreeger/meteor-moment.git",
+        "tag": "v2.5.1",
+        "commit": "8c9bc5d3fc96705057737cb9743d555417f6e551"
       }
     }
   }
