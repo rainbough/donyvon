@@ -4,8 +4,7 @@
     "basePackages": {
       "iron-router": {},
       "bootstrap-3": {},
-      "googlemaps": {},
-      "aloha-editor": {}
+      "googlemaps": {}
     },
     "packages": {
       "iron-router": {
@@ -22,11 +21,6 @@
         "git": "https://github.com/drewjw81/meteor-googlemaps.git",
         "tag": "v0.0.2",
         "commit": "da8785c82cfd7de0111f898ef10728e7ed24e361"
-      },
-      "aloha-editor": {
-        "git": "https://github.com/evo42/meteor-aloha-editor.git",
-        "tag": "v0.1.2",
-        "commit": "0f903efa86abc6aabb112f772468ef5e7aaa3577"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",
