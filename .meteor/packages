@@ -9,3 +9,8 @@ insecure
 iron-router
 bootstrap-3
 googlemaps
+useragent
+http
+http-methods
+bowser
+npm
