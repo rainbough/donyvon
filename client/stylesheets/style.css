@@ -15,7 +15,7 @@ h2{
 .page-wrap {
   min-height: 100%;
   /* equal to footer height */
-  margin-bottom: -205px;
+  margin-bottom: -150px;
   font-family: 'Muli'; 
 }
 .page-wrap:after {
@@ -24,7 +24,7 @@ h2{
 }
 footer, .page-wrap:after {
   /* .push must be the same height as footer */
-  height: 205px; 
+  height: 150px; 
 }
 /* end of sticky footer*/
 
@@ -83,7 +83,6 @@ label{
 .main-temp{
 	margin-top: -50px;
 	padding: 20px;
-	background-color: rgba(255, 255, 255, .1);
 	border-radius: 10px;
 }
 /* colors */
@@ -123,7 +122,9 @@ label{
  }
  .notice{
  	font-size: .75em;
- 	margin-top: 20px;
+ 	margin-bottom: -20px;
+ 	min-height: 50px;
+ 	padding: 10px;
  }
  .hrs{
  	font-size: .7em;
@@ -164,18 +165,26 @@ label{
 
 .navbar-default .navbar-nav > li > a {
 	padding: 3px 10px 3px 10px;
-	margin: 30px 20px 5px 0;
+	margin: 0 20px 5px 0;
 }
 .navbar-default .navbar-nav > li > a:hover {
 	padding: 3px 10px 3px 10px;
-	margin: 30px 20px 5px 0;
+	margin: 0 20px 5px 0;
 	color: #fff;
 	background-color:  #a81c26;
 	border-radius: 20px;
 }
 .navbar-default{
-	background-color: #fff;
+	background: transparent;
 	border: none;
+}
+
+.logo img{
+	height: 200px;
+	width: auto;
+}
+.fixed{
+	background-attachment: fixed;
 }
 .member {
 	*zoom: 1;
