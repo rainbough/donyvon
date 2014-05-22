@@ -1,1 +1,0 @@
-Bowser = Npm.require('bowser');
