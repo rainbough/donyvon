@@ -12,5 +12,5 @@ googlemaps
 useragent
 http
 http-methods
-bowser
 npm
+modernizr-meteor

@@ -7,7 +7,8 @@
       "googlemaps": {},
       "useragent": {},
       "http-methods": {},
-      "npm": {}
+      "npm": {},
+      "modernizr-meteor": {}
     },
     "packages": {
       "iron-router": {
@@ -39,6 +40,11 @@
         "git": "https://github.com/arunoda/meteor-npm.git",
         "tag": "v0.2.6",
         "commit": "177ab6118de5bf8cffb19481343d5762ff7a2aaf"
+      },
+      "modernizr-meteor": {
+        "git": "https://github.com/ckir/modernizr-meteor.git",
+        "tag": "v2.6.2",
+        "commit": "391ca2a3beff3cd2b0e1099cb2d744b5a2e8a73e"
       },
       "blaze-layout": {
         "git": "https://github.com/EventedMind/blaze-layout.git",

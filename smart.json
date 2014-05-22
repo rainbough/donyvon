@@ -5,6 +5,7 @@
     "googlemaps": {},
     "useragent": {},
     "http-methods": {},
-    "npm": {}
+    "npm": {},
+    "modernizr-meteor": {}
   }
 }
